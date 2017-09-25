@@ -1,0 +1,361 @@
+
+
+h2{
+	color: #4aaaa5;
+	font-size: 30px;
+    font-weight: bolder;
+    padding: 20px;
+}
+h3{
+	color: #4aaaa5;
+	text-align: center;
+	font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid;
+    margin: 20px;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	background-color: #ffffff;
+	position: relative;
+	top:0;
+	border-bottom-color: #cccccc ;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	
+
+}
+
+.name {
+	width: 200px;
+	height: 40px;
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	margin: 00px;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	left: 150px;
+	padding: 30px;
+	font-weight: bolder;
+
+
+}
+
+.headerlinks{
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+    float: right;
+	height: 30px;
+	width: auto;
+	background-color: #ffffff;
+	padding: 35px;
+
+}
+   
+
+.middlesection 
+{
+    clear: both;
+    height: 575px;
+    position: relative;
+    top: 0px;
+    background-image: url(../images/cork-wallet.png);
+    background-color: #e8eaed;
+    width: 100%;
+
+}
+.portfoliomiddlesection 
+{
+    clear: both;
+    height: 900px;
+    position: relative;
+    top: 0px;
+    background-image: url(../images/cork-wallet.png);
+    background-color: #e8eaed;
+    width: 100%;
+
+}
+.contentblock{
+	clear: both;
+	height: auto;
+	width: 600px;
+	background-color: #ffffff;
+	margin-left: 100px;
+	position: absolute;
+	left: 150px;
+	border: 2px solid #dddddd;
+	margin-left: auto;
+	top: 20px;
+
+}
+.me {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+    line-height: 25px;
+    margin: 30px;
+ 	margin: 30px 100px 30px 100px;
+}
+.Footer{
+	clear: both;
+	width: 100%;
+	height: 20px;
+	background-color: #666666;
+	color: white;
+	bottom: 0px;
+	text-align: center;
+	padding: 35px;
+	font-size: 15px;
+	border-top: 10px solid #4aaaa5;
+
+}
+#aboutme{
+	border-bottom: 2px solid #dddddd;
+	margin: 15px;
+}
+.connectimage{
+	height: 55px;
+	width: 55px;
+	padding: 10px;
+	
+}
+.connectwithme{
+	height: 200px;
+	width: 233px;
+	background-color: #ffffff;
+	position: absolute;
+	right: 155px;
+	border: 2px solid #dddddd;
+	margin-right: auto;
+	top: 20px;
+
+}
+.contacttblock{
+	clear: both;
+	height: 470px;
+	width: 600px;
+	background-color: #ffffff;
+	margin-left: 100px;
+	position: absolute;
+	left: 150px;
+	border: 2px solid #dddddd;
+	margin-left: auto;
+	top: 20px;
+
+}
+
+form {
+	
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	margin-left: 20px;
+}
+.placeholder{
+	height: 200px;
+    width: 200px;
+    padding: 10px 35px;
+
+}
+
+.imgs {
+    color: white;
+    background-color: #4aaaa5;
+    height: 30px;
+    width: 200px;
+    left: 50px;
+    bottom: 40px;
+    font-weight: bolder;
+    position: absolute;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 22px;
+
+}
+.picturewrap{
+	position: relative;
+	float: left;
+}
+
+#contactcontentblock{
+	height: 510px;
+}
+
+#nameinput, #emailinput{
+	height: 20px;
+    width: 546px;
+    border: 2px solid #dddddd;
+    padding: 5px;
+ 
+
+}
+#messageinput{
+	height: 150px;
+    width: 556px;
+    border: 2px solid #dddddd;
+
+}
+#submit{
+	width: 100px;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 980px) {
+   h2 {
+       color: lightgreen;
+}	
+.name {
+	width: auto;
+	margin: 00px;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	left: 150px;
+	padding: 30px;
+	
+
+
+}
+
+.headerlinks{
+    float: right;
+	height: 30px;
+	width: auto;
+	background-color: #ffffff;
+	padding: 35px;
+
+}
+   
+
+.middlesection 
+{
+    clear: both;
+    height: auto;
+    position: relative;
+    top: auto;
+
+}
+.portfoliomiddlesection 
+{
+    clear: both;
+    height: auto;
+    position: relative;
+    width: 100%;
+
+}
+.contentblock{
+	clear: both;
+	height: auto;
+	width: 100%;
+	margin-left: auto;
+	position: relative;
+	left: auto;
+	margin-left: auto;
+	top: auto;
+
+}
+.Footer{
+	clear: both;
+	width: 100%;
+	height: 20px;
+	padding: 35px;
+	font-size: 15px;
+	border-top: 10px solid #4aaaa5;
+
+}
+.connectimage{
+	height: 55px;
+	width: 55px;
+	padding: 10px;
+	
+}
+.connectwithme{
+	height: 200px;
+	width: 100%;
+	position: relative;
+	right: auto;
+	margin-right: auto;
+	top: auto;
+
+}
+.contacttblock{
+	clear: both;
+	height: auto;
+	width: 100%;
+	margin-left: auto;
+	position: absolute;
+	left: auto;
+	margin-left: auto;
+	top: auto;
+}
+
+form {
+
+	margin-left: auto;
+}
+.placeholder{
+	height: auto;
+    width: 100%;
+    padding: auto;
+
+}
+
+.imgs {
+    position: relative;
+    padding-top: 10px;
+
+
+}
+.picturewrap{
+	position: absolute;
+	float: left;
+}
+
+#contactcontentblock{
+	height: 510px;
+}
+
+#nameinput, #emailinput{
+    width: 100%;
+}
+#messageinput{
+    width: 100%;
+}
+#submit{
+	width: 100px;
+
+}
+
+    }
+/*    .connectwithme{
+    	clear: both;
+    	position: relative;
+    	height: 200px;
+		width: 233px;
+		right: auto;
+		margin-right: auto;
+		top: auto;
+}*/
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        h2: pink;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    body {
+        h2: purple;
+    }
+}
+
