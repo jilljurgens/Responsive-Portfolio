@@ -39,7 +39,7 @@ h3{
 	padding: 0px;
 	position: absolute;
 	top: 0px;
-	left: 150px;
+	left: 90px;
 	padding: 30px;
 	font-weight: bolder;
 
@@ -69,6 +69,7 @@ h3{
     background-image: url(../images/cork-wallet.png);
     background-color: #e8eaed;
     width: 100%;
+    padding-top: 20px;
 
 }
 .portfoliomiddlesection 
@@ -86,13 +87,20 @@ h3{
 	clear: both;
 	height: auto;
 	width: 600px;
+	float: left;
 	background-color: #ffffff;
-	margin-left: 100px;
-	position: absolute;
-	left: 150px;
+	margin-left: 90px;
+	/*position: absolute;*/
+	/*left: 150px;*/
 	border: 2px solid #dddddd;
-	margin-left: auto;
-	top: 20px;
+/*	margin-left: auto;
+*/	top: 20px;
+
+
+}
+.ProfilePic{
+	float: left;
+	margin: 15px;
 
 }
 .me {
@@ -115,7 +123,7 @@ h3{
 	border-top: 10px solid #4aaaa5;
 
 }
-#aboutme{
+.aboutme{
 	border-bottom: 2px solid #dddddd;
 	margin: 15px;
 }
@@ -129,11 +137,14 @@ h3{
 	height: 200px;
 	width: 233px;
 	background-color: #ffffff;
-	position: absolute;
+	/*position: absolute;*/
 	right: 155px;
 	border: 2px solid #dddddd;
 	margin-right: auto;
 	top: 20px;
+	float: left;
+	margin-left: 50px;
+	padding-left: 20px;
 
 }
 .contacttblock{
@@ -162,6 +173,7 @@ form {
     padding: 10px 35px;
 
 }
+
 
 .imgs {
     color: white;
@@ -210,19 +222,17 @@ form {
 
 
 @media only screen and (max-width: 980px) {
-   h2 {
-       color: lightgreen;
-}	
+
 .name {
 	width: auto;
 	margin: 00px;
 	padding: 0px;
 	position: absolute;
 	top: 0px;
-	left: 150px;
+	left: auto;
 	padding: 30px;
+	margin-left: 50px;
 	
-
 
 }
 
@@ -232,16 +242,26 @@ form {
 	width: auto;
 	background-color: #ffffff;
 	padding: 35px;
+	margin: auto;
 
 }
-   
+.ProfilePic{
+	float: none;
+	position: static;
+	width: auto;
+}
+.me{
+	clear: both;
+}   
 
 .middlesection 
 {
     clear: both;
     height: auto;
-    position: relative;
+    position: absolute;
     top: auto;
+    margin-top: 20px;
+    background-image: url(../images/cork-wallet.png);
 
 }
 .portfoliomiddlesection 
@@ -255,12 +275,13 @@ form {
 .contentblock{
 	clear: both;
 	height: auto;
-	width: 100%;
+	width: 50%;
 	margin-left: auto;
 	position: relative;
 	left: auto;
-	margin-left: auto;
+	margin-left: 50px;
 	top: auto;
+	float: left;
 
 }
 .Footer{
@@ -280,11 +301,12 @@ form {
 }
 .connectwithme{
 	height: 200px;
-	width: 100%;
-	position: relative;
+	width: 20%%;
+	/*position: relative;*/
 	right: auto;
-	margin-right: auto;
+	margin-right: 43px;
 	top: auto;
+	float: right;
 
 }
 .contacttblock{
