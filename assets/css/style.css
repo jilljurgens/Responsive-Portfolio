@@ -223,6 +223,11 @@ form {
 
 @media only screen and (max-width: 980px) {
 
+h3{
+
+	font-size: 16px;
+
+}
 .name {
 	width: auto;
 	margin: 00px;
@@ -252,6 +257,7 @@ form {
 }
 .me{
 	clear: both;
+	margin: 15px;
 }   
 
 .middlesection 
@@ -260,7 +266,6 @@ form {
     height: auto;
     position: absolute;
     top: auto;
-    margin-top: 20px;
     background-image: url(../images/cork-wallet.png);
 
 }
@@ -268,43 +273,42 @@ form {
 {
     clear: both;
     height: auto;
-    position: relative;
+    position: absolute;
     width: 100%;
+    background-image: url(../images/cork-wallet.png);
+    top: auto;
+    padding-top: 20px;
+
+
 
 }
 .contentblock{
 	clear: both;
 	height: auto;
-	width: 50%;
+	width: 45%;
 	margin-left: auto;
 	position: relative;
 	left: auto;
 	margin-left: 50px;
 	top: auto;
 	float: left;
+	margin-bottom: 150px;
+
 
 }
-.Footer{
-	clear: both;
-	width: 100%;
-	height: 20px;
-	padding: 35px;
-	font-size: 15px;
-	border-top: 10px solid #4aaaa5;
 
-}
 .connectimage{
-	height: 55px;
-	width: 55px;
+	height: 40px;
+	width: 40px;
 	padding: 10px;
 	
 }
 .connectwithme{
 	height: 200px;
-	width: 20%%;
+	width: 28%;
 	/*position: relative;*/
-	right: auto;
-	margin-right: 43px;
+	/*right: auto;*/
+	margin-right: 55px;
 	top: auto;
 	float: right;
 
@@ -324,50 +328,30 @@ form {
 
 	margin-left: auto;
 }
-.placeholder{
-	height: auto;
-    width: 100%;
-    padding: auto;
-
-}
-
-.imgs {
-    position: relative;
-    padding-top: 10px;
-
-
-}
-.picturewrap{
-	position: absolute;
-	float: left;
-}
 
 #contactcontentblock{
 	height: 510px;
+	padding-left: 20px;
+	padding-bottom: 20px;
 }
 
 #nameinput, #emailinput{
-    width: 100%;
+    width: 60%;
 }
 #messageinput{
-    width: 100%;
+    width: 60%;
 }
 #submit{
-	width: 100px;
+	width: 60px;
 
 }
+.Footer{
+	clear: both;
+	width: 100%;
+	position: fixed;
 
-    }
-/*    .connectwithme{
-    	clear: both;
-    	position: relative;
-    	height: 200px;
-		width: 233px;
-		right: auto;
-		margin-right: auto;
-		top: auto;
-}*/
 }
+    
 
 @media screen and (max-width: 768px) {
     body {
