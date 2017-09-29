@@ -81,6 +81,7 @@ h3{
     background-image: url(../images/cork-wallet.png);
     background-color: #e8eaed;
     width: 100%;
+    padding-top: 10px;
 
 }
 .contentblock{
@@ -143,8 +144,8 @@ h3{
 	margin-right: auto;
 	top: 20px;
 	float: left;
-	margin-left: 50px;
-	padding-left: 20px;
+	margin-left: 18px;
+	/*padding-left: 18px;*/
 
 }
 .contacttblock{
@@ -336,10 +337,10 @@ form {
 }
 
 #nameinput, #emailinput{
-    width: 60%;
+    width: 90%;
 }
 #messageinput{
-    width: 60%;
+    width: 90%;
 }
 #submit{
 	width: 60px;
@@ -352,16 +353,270 @@ form {
 
 }
     
+}
+@media only screen and (max-width: 768px) {
 
-@media screen and (max-width: 768px) {
-    body {
-        h2: pink;
-    }
+/*h3{*/
+
+/*	font-size: 16px;
+
+}*/
+.name {
+	width: auto;
+	margin: 00px;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	left: auto;
+	padding: 30px;
+	margin-left: 20px;
+	
+
+}
+/*
+.headerlinks{
+    float: right;
+	height: 30px;
+	width: auto;
+	background-color: #ffffff;
+	padding: 35px;
+	margin: auto;
+
+}*/
+.ProfilePic{
+	float: none;
+	position: absolute;
+	width: auto;
+}
+.me{
+	clear: both;
+	margin: 15px;
+}   
+
+/*.middlesection 
+{
+    clear: both;
+    height: auto;
+    position: absolute;
+    top: auto;
+    background-image: url(../images/cork-wallet.png);
+
+}*/
+/*.portfoliomiddlesection 
+{
+    clear: both;
+    height: auto;
+    position: absolute;
+    width: 100%;
+    background-image: url(../images/cork-wallet.png);
+    top: auto;
+    padding-top: 20px;
+}*/
+.placeholder {
+
+    padding: 2px 20px;
+
+
+}
+.imgs {
+
+    left: 35px;
+}
+.contentblock{
+	clear: both;
+	height: auto;
+	width: 90%;
+	margin-left: 5%;
+	position: relative;
+	left: auto;
+/*	margin-left: auto;*/
+	top: auto;
+/*	float: left;*/
+	margin-bottom: 20px;
+
+
 }
 
-@media screen and (min-width: 640px) {
-    body {
-        h2: purple;
-    }
+/*.connectimage{
+	height: 40px;
+	width: 40px;
+	padding: 10px;
+	
+}*/
+.connectwithme{
+	height: 200px;
+	width: 90%;
+	/*position: relative;*/
+	/*right: auto;*/
+	margin-right: 0px;
+	top: auto;
+	float: left;
+	margin-left: 5%;
+	margin-bottom: 150px;
+
+}
+.contacttblock{
+	clear: both;
+	height: auto;
+	width: 100%;
+	margin-left: auto;
+	position: absolute;
+	left: auto;
+	margin-left: auto;
+	top: auto;
+}
+
+form {
+
+	margin-left: auto;
+}
+
+#contactcontentblock{
+	height: 510px;
+	/*padding-left: 20px;*/
+	padding-bottom: 20px;
+}
+
+/*#nameinput, #emailinput{
+    width: 80%;
+}
+#messageinput{
+    width: 80%;
+}
+#submit{
+	width: 60px;
+
+}*/
+.Footer{
+	clear: both;
+	width: 100%;
+	position: fixed;
+
+}
+}
+
+@media only screen and (max-width: 640px) {
+
+
+.name {
+	width: 100%;
+	margin: 00px;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	left: auto;
+	padding: 30px;
+	margin-left: 0px;
+	float: none;
+	
+
+}
+
+.headerlinks{
+    clear: both;
+	height: 30px;
+	width: auto;
+	background-color: #ffffff;
+	padding: 35px;
+	margin: auto;
+	float: none;
+
+}
+.ProfilePic{
+	float: none;
+	position: absolute;
+	width: auto;
+}
+.me{
+	clear: both;
+	margin: 15px;
+}   
+
+.middlesection 
+{
+    width:100%;
+}
+/*.portfoliomiddlesection 
+{
+    clear: both;
+    height: auto;
+    position: absolute;
+    width: 100%;
+    background-image: url(../images/cork-wallet.png);
+    top: auto;
+    padding-top: 20px;
+}*/
+.placeholder {
+
+    padding: 2px 20px;
+
+
+}
+.imgs {
+
+    left: 35px;
+}
+.contentblock{
+	clear: both;
+	height: auto;
+	width: 90%;
+	margin-left: 5%;
+	position: relative;
+	left: auto;
+/*	margin-left: auto;*/
+	top: auto;
+/*	float: left;*/
+/*	margin-bottom: 20px;*/
+
+
+}
+
+/*.connectimage{
+	height: 40px;
+	width: 40px;
+	padding: 10px;
+	
+}*/
+.connectwithme{
+	height: 200px;
+	width: 90%;
+	/*position: relative;*/
+	/*right: auto;*/
+	margin-right: 0px;
+	top: auto;
+	float: left;
+	margin-left: 5%;
+	margin-bottom: 150px;
+
+}
+.contacttblock{
+	clear: both;
+	height: auto;
+	width: 100%;
+	margin-left: auto;
+	position: absolute;
+	left: auto;
+	margin-left: auto;
+	top: auto;
+}
+
+form {
+
+	margin-left: auto;
+}
+
+#contactcontentblock{
+	height: 510px;
+	/*padding-left: 20px;*/
+	padding-bottom: 20px;
+}
+
+
+.Footer{
+	clear: both;
+	width: 100%;
+	position: fixed;
+
+}
 }
 
