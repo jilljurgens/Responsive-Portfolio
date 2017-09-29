@@ -1,11 +1,18 @@
+.clearfix:before,
+.clearfix:after {
+	content:" ";
+	display:table
+   }
 
+.container{ width:90%; margin:0 auto;} 
 
-h2{
+h2{	
 	color: #4aaaa5;
 	font-size: 30px;
-    font-weight: bolder;
-    padding: 20px;
+	font-weight: bolder;
+	padding: 20px;
 }
+
 h3{
 	color: #4aaaa5;
 	text-align: center;
@@ -17,15 +24,11 @@ h3{
 }
 .header{
 	width: 100%;
-	height: 100px;
 	background-color: #ffffff;
-	position: relative;
-	top:0;
 	border-bottom-color: #cccccc ;
 	border-bottom-style: solid;
 	border-bottom-width: 2px;
-	
-
+	float: left;
 }
 
 .name {
@@ -35,16 +38,14 @@ h3{
 	color: white;
 	font-size: 40px;
 	text-align: center;
-	margin: 00px;
-	padding: 0px;
-	position: absolute;
-	top: 0px;
-	left: 90px;
 	padding: 30px;
 	font-weight: bolder;
-
-
+	float: left;
 }
+
+.toplinks {
+	float:right; 
+} 
 
 .headerlinks{
 	text-align: center;
@@ -62,16 +63,13 @@ h3{
 
 .middlesection 
 {
-    clear: both;
-    height: 575px;
-    position: relative;
-    top: 0px;
     background-image: url(../images/cork-wallet.png);
     background-color: #e8eaed;
     width: 100%;
-    padding-top: 20px;
-
+	padding-top: 20px;
+	float: left;
 }
+
 .portfoliomiddlesection 
 {
     clear: both;
@@ -85,39 +83,28 @@ h3{
 
 }
 .contentblock{
-	clear: both;
-	height: auto;
 	width: 600px;
 	float: left;
 	background-color: #ffffff;
-	margin-left: 90px;
-	/*position: absolute;*/
-	/*left: 150px;*/
 	border: 2px solid #dddddd;
-/*	margin-left: auto;
-*/	top: 20px;
-
-
 }
 .ProfilePic{
 	float: left;
 	margin: 15px;
-
 }
+
 .me {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
     line-height: 25px;
-    margin: 30px;
- 	margin: 30px 100px 30px 100px;
+ 	margin: 30px;
 }
 .Footer{
-	clear: both;
-	width: 100%;
+	width: calc(100% - 70px);
 	height: 20px;
 	background-color: #666666;
 	color: white;
-	bottom: 0px;
+	float: left;
 	text-align: center;
 	padding: 35px;
 	font-size: 15px;
@@ -223,22 +210,15 @@ form {
 
 
 @media only screen and (max-width: 980px) {
+.container{ width:100%; }
+
+.header{
+	height:auto;
+}
 
 h3{
 
 	font-size: 16px;
-
-}
-.name {
-	width: auto;
-	margin: 00px;
-	padding: 0px;
-	position: absolute;
-	top: 0px;
-	left: auto;
-	padding: 30px;
-	margin-left: 50px;
-	
 
 }
 
@@ -251,25 +231,7 @@ h3{
 	margin: auto;
 
 }
-.ProfilePic{
-	float: none;
-	position: static;
-	width: auto;
-}
-.me{
-	clear: both;
-	margin: 15px;
-}   
 
-.middlesection 
-{
-    clear: both;
-    height: auto;
-    position: absolute;
-    top: auto;
-    background-image: url(../images/cork-wallet.png);
-
-}
 .portfoliomiddlesection 
 {
     clear: both;
@@ -296,6 +258,14 @@ h3{
 	margin-bottom: 150px;
 
 
+}
+.ProfilePic{
+	float: none;
+	width:calc(100% - 30px);
+}
+
+.me{
+	margin: 15px;
 }
 
 .connectimage{
@@ -346,72 +316,10 @@ form {
 	width: 60px;
 
 }
-.Footer{
-	clear: both;
-	width: 100%;
-	position: fixed;
-
-}
     
 }
 @media only screen and (max-width: 768px) {
 
-/*h3{*/
-
-/*	font-size: 16px;
-
-}*/
-.name {
-	width: auto;
-	margin: 00px;
-	padding: 0px;
-	position: absolute;
-	top: 0px;
-	left: auto;
-	padding: 30px;
-	margin-left: 20px;
-	
-
-}
-/*
-.headerlinks{
-    float: right;
-	height: 30px;
-	width: auto;
-	background-color: #ffffff;
-	padding: 35px;
-	margin: auto;
-
-}*/
-.ProfilePic{
-	float: none;
-	position: absolute;
-	width: auto;
-}
-.me{
-	clear: both;
-	margin: 15px;
-}   
-
-/*.middlesection 
-{
-    clear: both;
-    height: auto;
-    position: absolute;
-    top: auto;
-    background-image: url(../images/cork-wallet.png);
-
-}*/
-/*.portfoliomiddlesection 
-{
-    clear: both;
-    height: auto;
-    position: absolute;
-    width: 100%;
-    background-image: url(../images/cork-wallet.png);
-    top: auto;
-    padding-top: 20px;
-}*/
 .placeholder {
 
     padding: 2px 20px;
@@ -429,20 +337,18 @@ form {
 	margin-left: 5%;
 	position: relative;
 	left: auto;
-/*	margin-left: auto;*/
 	top: auto;
-/*	float: left;*/
 	margin-bottom: 20px;
 
 
 }
 
-/*.connectimage{
-	height: 40px;
-	width: 40px;
-	padding: 10px;
-	
-}*/
+.ProfilePic{
+	float: left;
+	width: auto;
+}
+
+
 .connectwithme{
 	height: 200px;
 	width: 90%;
@@ -475,23 +381,6 @@ form {
 	height: 510px;
 	/*padding-left: 20px;*/
 	padding-bottom: 20px;
-}
-
-/*#nameinput, #emailinput{
-    width: 80%;
-}
-#messageinput{
-    width: 80%;
-}
-#submit{
-	width: 60px;
-
-}*/
-.Footer{
-	clear: both;
-	width: 100%;
-	position: fixed;
-
 }
 }
 
@@ -499,53 +388,21 @@ form {
 
 
 .name {
-	width: 100%;
-	margin: 00px;
-	padding: 0px;
-	position: absolute;
-	top: 0px;
-	left: auto;
-	padding: 30px;
-	margin-left: 0px;
+	width: calc(100% - 60px);
 	float: none;
-	
-
 }
 
 .headerlinks{
-    clear: both;
-	height: 30px;
-	width: auto;
-	background-color: #ffffff;
-	padding: 35px;
-	margin: auto;
-	float: none;
+	float: left;
+	width: 33.33333%;
+	padding: 20px 0;
+	height: auto;
+}
+.toplinks{
+	float: left;
+	width: 100%;
+}
 
-}
-.ProfilePic{
-	float: none;
-	position: absolute;
-	width: auto;
-}
-.me{
-	clear: both;
-	margin: 15px;
-}   
-
-.middlesection 
-{
-    width:100%;
-}
-/*.portfoliomiddlesection 
-{
-    clear: both;
-    height: auto;
-    position: absolute;
-    width: 100%;
-    background-image: url(../images/cork-wallet.png);
-    top: auto;
-    padding-top: 20px;
-}*/
 .placeholder {
 
     padding: 2px 20px;
@@ -561,27 +418,16 @@ form {
 	height: auto;
 	width: 90%;
 	margin-left: 5%;
-	position: relative;
-	left: auto;
-/*	margin-left: auto;*/
-	top: auto;
-/*	float: left;*/
-/*	margin-bottom: 20px;*/
-
-
 }
 
-/*.connectimage{
-	height: 40px;
-	width: 40px;
-	padding: 10px;
-	
-}*/
+.ProfilePic{
+	float: none;
+	width:calc(100% - 30px);
+}
+
 .connectwithme{
 	height: 200px;
 	width: 90%;
-	/*position: relative;*/
-	/*right: auto;*/
 	margin-right: 0px;
 	top: auto;
 	float: left;
@@ -611,12 +457,5 @@ form {
 	padding-bottom: 20px;
 }
 
-
-.Footer{
-	clear: both;
-	width: 100%;
-	position: fixed;
-
-}
 }
 
